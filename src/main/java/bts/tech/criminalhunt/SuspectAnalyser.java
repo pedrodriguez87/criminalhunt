@@ -10,9 +10,6 @@ public class SuspectAnalyser {
 
         double result = 0;
 
-        Suspect suspect2 = new Suspect("pedro", 20, 170, 75, "brown","blue",true);
-        Suspect suspect3 = new Suspect("Pedro", 21, 171, 73, "brown", "blue", true);
-
             if (suspect.isMale()) {
                 if (suspect.getName().equalsIgnoreCase(suspect1.getName())) {
                     result++;
